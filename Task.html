@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Abdelrhman Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Playfair Display', serif;
+      background: url('https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431735.jpg?t=st=1751911945~exp=1751915545~hmac=b78ef89303b1662513c9ac00713cec764fc66234c1b7181100dfd6f335946fd2&w=740') center/cover no-repeat;
+      color: #fff;
+      overflow-x: hidden;
+    }
+    /* الشريط العلوي */
+    .topbar {
+      width: 100%;
+      background: #000;
+      color: #fff;
+      height: 30px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      font-size: 14px;
+    }
+    .topbar span {
+      margin-left: 20px;
+      opacity: 0.7;
+      letter-spacing: 1px;
+    }
+    /* القائمة الرئيسية */
+    .main-menu {
+      margin: 30px auto 0 auto;
+      display: flex;
+      justify-content: center;
+    }
+    .main-menu .menu {
+      display: flex;
+      border: 4px solid #ffb32a;
+      border-radius: 45px;
+      padding: 8px 45px;
+    }
+    .main-menu .menu a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 2rem;
+      margin: 0 30px;
+      padding: 7px 0;
+      position: relative;
+    }
+    .main-menu .menu a:hover {
+      color: #ffb32a;
+    }
+
+    /* المنطقة الرئيسية */
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1100px;
+      margin: 60px auto 0 auto;
+      padding: 0 0px;
+    }
+
+    .left {
+      min-width: 600px;
+    }
+    .left h1 {
+      font-size: 3.5rem;
+      margin: 0;
+      margin-left: 80px;
+      line-height: 1.1;
+      font-weight: 400;
+      color: #fff;
+      letter-spacing: -2px;
+    }
+    .cv-btn {
+      display: inline-block;
+      margin-top: 12px;
+      color: #ffb32a;
+      border: 2px solid #ffb32a;
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      font-family: inherit;
+      text-decoration: none;
+      float: right;
+      margin-right: 140px;
+    }
+    .cv-btn i {
+      margin-right: 6px;
+    }
+    .cv-btn:hover {
+      background: #ffb32a;
+      color: #222;
+    }
+
+    /* الروبوت */
+    .robot-img {
+      width: 230px;
+      height: 230px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    /* يمكنك استبدال الصورة أدناه بصورة الروبوت الخاص بك */
+    .robot-img img {
+      width: 200px;
+      height: 200px;
+      object-fit: contain;
+      display: block;
+    }
+
+    /* الأيقونات الجانبية */
+    .right {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: center;
+      min-width: 120px;
+    }
+    .social {
+      margin: 0 0 0 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 23px;
+    }
+    .social a {
+      color: #ffb32a;
+      font-size: 2.2rem;
+      border: 2px solid #ffb32a;
+      border-radius: 50%;
+      width: 44px;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+    }
+    .social a:hover {
+      background: #ffb32a;
+      color: #222;
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <span>Page 1</span>
+    <span>projects</span>
+    <span>Projects</span>
+  </div>
+  <div class="main-menu">
+    <div class="menu">
+      <a href="#" class="active">Projects</a>
+      <a href="#">Projects</a>
+      <a href="#">Projects</a>
+      <a href="#">Projects</a>
+    </div>
+  </div>
+  <div class="container">
+    <div class="left">
+      <h1>
+        Welcome<br>
+        to Abdelrhman<br>
+        Portfolio
+      </h1>
+      <a href="#" class="cv-btn">
+        <i class="fa-regular fa-file-lines"></i>CV
+      </a>
+    </div>
+      <div class="robot-img">
+        <img src="https://img.pikbest.com/origin/09/23/74/026pIkbEsTCbm.png!w700wp" alt="robot">
+      </div>
+    <div class="right">
+      <div class="social">
+        <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="#" title="Email"><i class="fa-regular fa-envelope"></i></a>
+        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
